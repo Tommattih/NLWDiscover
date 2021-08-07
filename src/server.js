@@ -14,4 +14,4 @@ server.use(express.urlencoded({extended: true}))
 
 server.use(route)
 
-server.listen(3000, () => console.log("Rodou? Sim? Não? Pq nao?"))
+server.listen(3000, () => console.log("I'm alive daddy!"))

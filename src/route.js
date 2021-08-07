@@ -11,8 +11,8 @@ route.post('/create-room', RoomController.create)
 route.get('/room/:room', RoomController.open)
 route.post('/enterroom', RoomController.enter)
 
-//Formato que o formulário de dentro da modal
-route.post('/question/create/:room', QuestionController.create)
-route.post('/question/:room/:question/:action', QuestionController.index)
+// //Formato que o formulário de dentro da modal -há um erro no caminho da linha 15
+// route.post('/question/create/:room', QuestionController.create)
+// route.post('/question/:room/:question/:action', QuestionController.index)
 
 module.exports = route
