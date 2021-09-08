@@ -1,5 +1,5 @@
 .content{
-    max-width: min(112rem, 85%);
+    max-width: min(95rem, 85%);
 }
 
 #room header{
@@ -37,10 +37,10 @@
 /* Question form */
 #question-form h2{
     font-family: 'Poppins', sans-serif;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     color: var(--black);
     font-weight: 700;
-    line-height: 4.2rem;
+    line-height: 2.4rem;
 
     margin-bottom: 2.4rem;
 }
@@ -97,7 +97,7 @@
     background: var(--light-blue);
     margin-bottom: .8rem;
     border-radius: 0 .8rem .8rem .8rem;
-    padding: 2.4rem;
+    padding: 1.6rem;
 }
 
 .question-wrapper .question-content{
@@ -146,4 +146,3 @@
 .question-wrapper.read .question-content .user{
     background: var(--grey-blue);
 }
-

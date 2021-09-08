@@ -1,21 +1,19 @@
 {
-  "name": "RocketQ",
+  "name": "rocketq",
   "version": "1.0.0",
-  "description": "Projeto desonvolvido para gerenciar perguntas anonimas de usuarios direcionada ao dono da pagina. Projeto desenvolvido na semana NLW Rocketseat na missão Discover",
+  "description": "Projeto desonvolvido para gerenciar perguntas anônimas de usuarios com foco em cooperar com a evolução da vizinhança. Projeto desenvolvido na semana NLW Rocketseat na missão Discover",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon ."
   },
   "keywords": [],
   "author": "Mateus Tomas Lins",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "sqlite": "^4.0.23",
-    "sqlite3": "^5.0.2"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.12"
   }
 }
